@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="gu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>શ્રી ડાકવડલા પ્રાથમિક શાળા</title>
+<style>
+:root{--blue:#064b91;--deep:#073875;--sky:#eaf5ff;--ink:#18324d;--gold:#f4a51c}
+*{box-sizing:border-box} body{margin:0;font-family:"Noto Sans Gujarati","Shruti",Arial,sans-serif;color:var(--ink);background:#f5faff;line-height:1.65}
+a{color:inherit;text-decoration:none}.top{background:#06427f;color:white;padding:7px 4%;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px}
+.masthead{display:grid;grid-template-columns:130px 1fr 130px;align-items:center;gap:16px;padding:18px 4%;background:white;text-align:center}
+.logo{width:105px;height:105px;border-radius:50%;margin:auto;display:grid;place-items:center;background:linear-gradient(145deg,#fff6cf,#e2f4ff);border:4px solid var(--blue);color:var(--blue);font-size:38px;box-shadow:0 3px 12px #0001}
+.masthead h1{margin:0;color:#073b99;font-size:clamp(25px,4vw,46px);line-height:1.35}.masthead p{margin:5px 0 0;color:#124b83;font-weight:700;font-size:clamp(15px,2vw,21px)}
+.saraswati{font-size:58px;line-height:1.2}.saraswati small{display:block;font-size:13px;color:var(--blue);font-weight:bold}
+nav{background:var(--blue);color:white;display:flex;justify-content:center;flex-wrap:wrap;padding:0 3%;position:sticky;top:0;z-index:2;box-shadow:0 3px 8px #0002}
+nav a{padding:13px 17px;font-weight:700}nav a:hover{background:#0874d1}
+.hero{min-height:300px;display:grid;grid-template-columns:1fr 1.1fr;background:linear-gradient(120deg,#e8f6ff,#c5e6ff);overflow:hidden}
+.hero-copy{padding:35px 8%;align-self:center}.hero h2{font-size:clamp(26px,3vw,39px);line-height:1.4;color:#0760b6;margin:0 0 12px}.hero p{font-size:19px;font-weight:700;margin:0}.hero-art{min-height:270px;background:linear-gradient(135deg,#a7d7f3,#eaf8ff);display:grid;place-items:center;padding:20px}
+.school-illustration{width:100%;max-width:560px;min-height:210px;border-bottom:12px solid #4f9b4a;display:flex;align-items:end;justify-content:center;gap:5px;padding:20px 15px 0;background:linear-gradient(#c9edff 0 35%,#a5d7f2 35% 40%,#6eb05e 40%);border-radius:12px 12px 0 0}
+.building{width:85%;height:140px;background:#fff4d9;border:5px solid #e1b75b;border-bottom:0;display:flex;align-items:center;justify-content:space-evenly;position:relative;box-shadow:0 3px 8px #0002}.building:before{content:"શ્રી ડાકવડલા પ્રાથમિક શાળા";position:absolute;top:-28px;background:#fff4d9;color:#064b91;font-weight:900;padding:2px 12px;border:2px solid #d5a74a;white-space:nowrap;font-size:14px}.door{height:80px;width:42px;background:#14558a;border:5px solid #d6e6ef;align-self:end}.window{height:48px;width:42px;background:#77c7e9;border:5px solid #fff;box-shadow:inset 0 0 0 2px #28709b}
+.tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;padding:20px 4%}.tile{background:white;border:1px solid #d8eaff;border-radius:12px;padding:17px 10px;text-align:center;box-shadow:0 3px 10px #064b9108}.tile .emoji{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 7px;border-radius:15px;background:#e4f2ff;font-size:26px}.tile strong{display:block;color:var(--blue)}
+.content{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;padding:0 4% 35px}.panel{background:white;border:1px solid #d6e8fb;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px #064b9108}.panel h3{margin:0;background:var(--blue);color:white;padding:10px 16px;font-size:19px}.panel-body{padding:16px}.news{padding:10px 0;border-bottom:1px solid #e2eef9}.news:last-child{border-bottom:0}.date{display:inline-block;background:#e7f3ff;color:var(--blue);font-weight:bold;border-radius:6px;padding:2px 8px;margin-right:7px;font-size:13px}.welcome-illustration{font-size:48px;text-align:center;margin-top:12px}.class-photo{background:linear-gradient(#d6f0ff,#a8d5ee);height:145px;display:grid;place-items:center;font-size:62px}.contact-line{margin:8px 0}.btn{display:inline-block;background:#0871ce;color:white;padding:8px 16px;border-radius:24px;font-weight:bold;margin-top:7px}
+footer{background:#073875;color:white;padding:22px 4%;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:900px){.tiles{grid-template-columns:repeat(3,1fr)}.content{grid-template-columns:1fr 1fr}.content .panel:last-child{grid-column:1/-1}}
+@media(max-width:600px){.masthead{grid-template-columns:65px 1fr 65px;gap:6px;padding:12px 3%}.logo{width:58px;height:58px;font-size:24px;border-width:2px}.saraswati{font-size:34px}.saraswati small{font-size:10px}.hero{grid-template-columns:1fr}.hero-copy{padding:25px 6%}.hero-art{min-height:220px}.tiles{grid-template-columns:repeat(2,1fr);padding:14px 3%;gap:8px}.content{grid-template-columns:1fr;padding:0 3% 25px}.content .panel:last-child{grid-column:auto}nav a{padding:10px;font-size:14px}.top{font-size:12px}.building{height:115px}.window{width:27px;height:40px}.door{width:30px;height:65px}}
+</style>
+</head>
+<body>
+<div class="top"><span>☎ સંપર્ક: 02753-XXXXXX</span><span>✉ Email: dakvadlaprimary@gmail.com</span><span>ગુજરાતી | A+ A A−</span></div>
+<header class="masthead">
+  <div class="logo" aria-label="શાળાના લોગો માટે જગ્યા">📘<br>☀️</div>
+  <div><h1>શ્રી ડાકવડલા પ્રાથમિક શાળા</h1><p>તા. ચોટીલા, જિ. સુરેન્દ્રનગર</p></div>
+  <div class="saraswati" aria-label="સરસ્વતી માતાના ફોટા માટે જગ્યા">🪷<small>॥ સરસ્વતી નમસ્તુભ્યં ॥</small></div>
+</header>
+<nav aria-label="મુખ્ય મેનુ">
+  <a href="#home">⌂ હોમ</a><a href="#school">અમારી શાળા</a><a href="#teachers">શિક્ષકો</a><a href="#students">વિદ્યાર્થી માહિતી</a><a href="#programs">કાર્યક્રમો</a><a href="#gallery">ગેલેરી</a><a href="#downloads">ડાઉનલોડ્સ</a><a href="#contact">સંપર્ક કરો</a>
+</nav>
+<main id="home">
+<section class="hero">
+  <div class="hero-copy"><h2>શિક્ષણ એ પ્રકાશ છે…<br><span style="color:#202f42">જે જીવનને ઉજ્જવળ બનાવે છે…</span></h2><p>આપણા શાળા પરિવારનો એક જ સંકલ્પ</p><p>“દરેક બાળક ભણે… દરેક બાળક આગળ વધે…”</p></div>
+  <div class="hero-art"><div class="school-illustration"><div class="building"><span class="window"></span><span class="window"></span><span class="door"></span><span class="window"></span><span class="window"></span></div></div></div>
+</section>
+<section class="tiles" aria-label="ઝડપી લિંક્સ">
+  <a class="tile" href="#school"><span class="emoji">👨‍👩‍👧</span><strong>અમારી શાળા</strong><small>પરિચય અને ઇતિહાસ</small></a>
+  <a class="tile" href="#teachers"><span class="emoji">👩‍🏫</span><strong>શિક્ષકો</strong><small>શિક્ષક મંડળની માહિતી</small></a>
+  <a class="tile" href="#students"><span class="emoji">📖</span><strong>વિદ્યાર્થીઓ</strong><small>વિદ્યાર્થી માહિતી</small></a>
+  <a class="tile" href="#programs"><span class="emoji">📋</span><strong>યોજનાઓ</strong><small>શૈક્ષણિક કાર્યક્રમો</small></a>
+  <a class="tile" href="#gallery"><span class="emoji">🖼️</span><strong>ગેલેરી</strong><small>ફોટો અને વિડિયો</small></a>
+  <a class="tile" href="#downloads"><span class="emoji">⬇️</span><strong>ડાઉનલોડ્સ</strong><small>ફોર્મ અને દસ્તાવેજો</small></a>
+</section>
+<section class="content">
+  <article class="panel" id="programs"><h3>📢 તાજા સમાચાર</h3><div class="panel-body">
+    <div class="news"><span class="date">સમાચાર 01</span> અહીં શાળાના નવા સમાચાર અને સૂચના ઉમેરો.</div>
+    <div class="news"><span class="date">સમાચાર 02</span> અહીં કાર્યક્રમ અથવા ઉજવણીની માહિતી ઉમેરો.</div>
+    <div class="news"><span class="date">સમાચાર 03</span> અહીં પરીક્ષા અથવા વાલી મિટિંગની માહિતી ઉમેરો.</div>
+  </div></article>
+  <article class="panel" id="school"><h3>👥 આપનું સ્વાગત છે</h3><div class="panel-body">
+    <p><strong>શ્રી ડાકવડલા પ્રાથમિક શાળા</strong>માં આપનું હાર્દિક સ્વાગત છે. ગુણવત્તાસભર શિક્ષણ, સંસ્કાર અને સર્વાંગી વિકાસ દ્વારા દરેક બાળકને આગળ વધવા પ્રોત્સાહિત કરવું અમારો સંકલ્પ છે.</p>
+    <a class="btn" href="#contact">વધુ જાણો →</a><div class="welcome-illustration">☀️📖</div>
+  </div></article>
+  <article class="panel" id="gallery"><h3>📸 શાળાની પ્રવૃત્તિઓ</h3><div class="class-photo">🏫 👩‍🏫 📚</div><div class="panel-body"><strong>શીખતું બાળક, વિકસતું ભવિષ્ય</strong><p>શાળાના સાચા ફોટા અહીં ઉમેરવાના છે.</p><a class="btn" href="#gallery">ગેલેરી જુઓ →</a></div></article>
+  <article class="panel" id="teachers"><h3>👩‍🏫 શિક્ષક મંડળ</h3><div class="panel-body">શિક્ષકોનાં નામ, હોદ્દા અને ફોટા અહીં ઉમેરવાના છે.</div></article>
+  <article class="panel" id="students"><h3>🎓 વિદ્યાર્થી માહિતી</h3><div class="panel-body">વિદ્યાર્થીઓ માટેની જાહેર સૂચનાઓ અને શૈક્ષણિક માહિતી અહીં ઉમેરવાની છે. ખાનગી વિગતો જાહેર ન કરવી.</div></article>
+  <article class="panel" id="downloads"><h3>⬇️ ડાઉનલોડ્સ</h3><div class="panel-body">શાળાના ફોર્મ, પરિપત્રો અને ઉપયોગી દસ્તાવેજોની લિંક્સ અહીં ઉમેરવાની છે.</div></article>
+</section>
+</main>
+<footer id="contact"><div><strong>શ્રી ડાકવડલા પ્રાથમિક શાળા</strong><br>તા. ચોટીલા, જિ. સુરેન્દ્રનગર, ગુજરાત</div><div><strong>અમારો સંપર્ક</strong><br>ફોન: 02753-XXXXXX<br>Email: dakvadlaprimary@gmail.com</div><div>© શાળા વેબસાઇટ • તમામ હકો સુરક્ષિત</div></footer>
+</body>
+</html>
